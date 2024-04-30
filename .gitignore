@@ -20,3 +20,4 @@ rad.json
 *.flf
 #Test results file
 TestResults.xmltest_ignore.txt
+text_ignore.txt
