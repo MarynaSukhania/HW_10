@@ -1,23 +1,10 @@
-    1  git config --get user.name
-    2  git clone https://github.com/MarynaSukhania/HW_10.git
-    3  cd HW_10
-    4  touch text_ignore.txt
-    5  echo "test_ignore.txt" >> .gitignore
-    6  git status
-    7  git add
+    1  cd /c/users/marin/documents/HW_10
+    2  git config --global user.name "MarynaSukhania"
+    3  git config --global user.email "Marina.suhanya@gmail.com"
+    4  cd HW_10
+    5  touch text_ignore.txt
+    6  echo "text_ignore.txt" >> .gitignore
+    7  git status
     8  git add .
-    9  git commit -m "Commit change"
-   10  touch main_test.txt
-   11  git add .
-   12  git commit -m "Plus emty file"
-   13  git checkout -b develop
-   14  touch develop_test.txt
-   15  git add .
-   16  git commit -m "Plus file develop_test.txt"
-   17  git status
-   18  git add .
-   19  git commit -m "Changed file develop_test.txt"
-   20  git checkout main
-   21  git merge develop
-   22  git log
-   23  history > command_list.csv
+    9  git commit -m "New file text_ignore.txt and chanded in .gitignore"
+   10  history > command_list.csv
